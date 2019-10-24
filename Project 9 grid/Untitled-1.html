@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #demo {
+
+
+            display: grid;
+            /* grid-template-columns: 80px 60px 190px 80px 250px auto; */
+          /* grid-template-columns: 80px 80px; */
+          grid: 100px 200px / 100px 200px auto ;
+            grid-gap: 1em;
+            border: 1em solid red;
+            margin: 100px 150px 80px 100px ;
+            text-justify: center;
+
+        }
+
+        #demo>div:nth-child(odd){
+            background-color: rgb(22, 230, 91);
+            text-align: center;
+        }
+        #demo>div{
+            background-color: rgb(209, 230, 22);
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="demo">
+        <!-- <center>
+        <button onclick="Apple"  id="Apple"  value="Apple">Red</button>
+        <button onclick="Banana" id="Banana" value="Banana">Blue</button>
+    </center> -->
+        <div>1 </div>
+        <div>2</div>
+        <div>3 </div>
+        <div>4</div>
+        <div>5 </div>
+        <div>6 </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

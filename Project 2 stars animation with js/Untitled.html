@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+
+
+    <!-- <input type="text"  id="demo"><br><br>
+    <input type="text"  id="demo1"><br><br>
+    <button onclick="addValues()" id="race" >submit</button><br>
+    <h2 id="rst">Result=</h2> -->
+
+    <!-- <img onmouseover="increase()" onmouseout="decrease()" id="demo1" src="./star.png" width="100" > -->
+
+    <!-- <p id="demo">
+    </p>
+    <button onclick="start()" id="bt1">Start</button>
+    <h3 id="tx1">HY there</h3>
+    <button onclick="stop()" id="bt2">Stop</button> -->
+
+    <!-- <h3> value 1:</h3><input type="text" id="value1"><br>
+    <h3> value 2:</h3> <input type="text" id="value2"><br><br>
+    <button onclick="add()">Add </button><br>
+    <h3 id="result"> Result:</h3> -->
+    <style>
+        #brd {
+            width: 800px;
+            height: 500px;
+            border: 3px solid red;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div id="brd">
+        <img id="myImage" src="./star.png" width="100" />
+    </div>
+    <input id="btn" type="button" value="Start" onclick="moveRight();" />
+    <input type="button" value="stop" onclick="stop();" />
+    <input type="button" value="Refresh" onclick="Refresh()">
+    <button ondblclick="Time()">Show Time</button>
+    <script src="./jquery.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

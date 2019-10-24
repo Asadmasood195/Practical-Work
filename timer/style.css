@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#demo {
+    width: 250px;
+    height: 100px;
+    /* background-color: rgb(231, 19, 125); */
+   
+    background-image: linear-gradient(#1b0cee,#df1313, #0cedf5);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+
+    top: 2px;
+    box-shadow: 5px 5px rgb(0, 0, 0);
+}
+#main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+        text-align: center;
+    justify-content: center;
+    align-items: center;
+}

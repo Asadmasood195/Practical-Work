@@ -1,0 +1,24 @@
+/* #demo1 img{
+    width: 5%;
+    margin: 20px 10px 10px 20px;
+    display: inline-block;
+} */
+/* #demo1 {
+    width: 5%;
+    margin: 20px 10px 10px 20px;
+} */
+#Wheel {
+    margin-top: 10px;
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    background-color:rgba(69, 21, 202, 0.78);
+    color: antiquewhite;
+    cursor: pointer;
+    border: none;
+}
+#Wheel:hover{
+    border-radius: 30px;
+    box-shadow: 0px 10px 3px  rgb(238, 10, 200);
+}

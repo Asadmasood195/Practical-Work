@@ -1,0 +1,50 @@
+#container{
+  width: 500px;
+  height: 600px;
+margin: auto;
+justify-content: center;
+
+background-color:#9381bf21;
+}
+#btn{
+background-color: rgb(54, 33, 243);
+border: hidden;
+width: 90px;
+height: 30px;
+border-radius: 4px;
+color: white;
+}
+.mainpage input{
+margin: auto;
+    width: 280px;
+    height: 35px;
+    border-radius: 5px;
+    
+    border: hidden;
+    background-color: rgb(184, 212, 212);
+}
+
+.mainpage {
+    padding: 5px;
+    margin: 5%;
+}
+#heading{
+    text: center;
+    margin: auto;
+    color: green;
+    
+}
+#main{
+    margin-left: 105px;
+    padding-top: 36px;
+}
+ ::placeholder {
+   
+padding: 10px;
+}
+input:focus::-webkit-input-placeholder {
+    font-size: 1em;
+    position: relative;
+    top: -10px; 
+    transition: 2s ease-out;
+}

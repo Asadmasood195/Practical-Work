@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            background-image:url(kkk.jpg);
+            background-size: cover;
+            margin-top: 20px;
+            padding-right: 30px;
+                    }
+    #nn ul li  {
+        background-color: rgb(29, 218, 29);
+        width: 100px;
+        height: 30px;
+        float: left;
+        border: 1px solid white;
+float: left;
+        text-align: center;
+        padding-top:5px;
+        
+    }
+    #nn :hover{
+        background-color: rgb(233, 85, 17);
+        color: rgb(247, 243, 247);
+    }
+    #nn ul ul :hover > li{
+        display: block;
+
+    }
+    #nn ul ul{
+display:list-item;
+        margin-left:-40px;
+        position: relative;
+        top: 10px;
+    }
+    #nn ul {
+        list-style: none;
+    }
+         #nn ul ul{
+            display: none;
+        
+    }
+    #nn  ul li:hover > ul {
+            display:block;
+    }
+    </style>
+</head>
+<body>
+    
+   <table> 
+       
+        <div id="nn">
+<ul>
+    
+   <li> <a href="Home"> Home</a></li>
+    <li><a href="Subjects">Subjects</a>
+        <ul>
+        <li><a href="English">English</a></li>
+        <li><a href="Urdu">Urdu</a></li>
+        <li><a href="Math">Math</a></li>
+        
+</ul>
+</li>
+   <li> <a href="Contact">Contact</a></li>
+   <li> <a href="About">About</a></li>
+
+</ul>
+        </div>
+        
+    </table>
+</body>
+</html>

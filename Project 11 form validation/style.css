@@ -1,0 +1,49 @@
+#main{
+    width: fit-content;
+    height: 420px;
+    background-color: aqua;
+    margin:auto;
+    padding-left:10% ;
+    
+
+}
+#child1{
+    color: blue;
+    position:relative;
+    padding-top: 10px;
+    margin-left: 10%;
+}
+div  input {
+border : none;
+
+width:240px;
+height: 30px;
+border-radius: 10px;
+}
+#btn{
+    border:none;
+    width:110px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: rgb(40, 40, 221);
+    color: rgb(248, 248, 250);
+}
+input::placeholder{
+    padding-left: 10px;
+}
+
+ 
+input:focus::-webkit-input-placeholder{
+    font-size: 0.75em;
+    position: relative;
+    top: -10px;
+    transition: 2s ease-out;
+    
+    
+}
+
+
+
+
+
+

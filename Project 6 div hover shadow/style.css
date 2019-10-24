@@ -1,0 +1,27 @@
+
+
+.remo {
+
+    display: flex;
+    width: 122px;
+    height: 71px;
+    background-color: rgb(231, 24, 204);
+    /* flex-direction: row; */
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+    box-shadow: 11px 17px cornflowerblue;
+
+}
+
+.remo:hover {
+    text-shadow: 10px 10px 0px rgb(15, 210, 236);
+
+    box-shadow: 40px 35px rgb(25, 216, 7);
+    /* color: rgb(17, 228, 69); */
+    box-sizing: border-box;
+    border-radius: 10px;
+    /* transform: rotate(360deg); */
+
+
+}
